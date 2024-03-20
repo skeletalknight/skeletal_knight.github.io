@@ -9,13 +9,13 @@
 }
 @font-face {
   font-family: OPPOSans;
-  src: url('/fonts/OPPOSans-H-2.ttf') format('truetype');
+  src: url('../fonts/OPPOSans-H-2.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: HongLei;
-  src: url('/fonts/HongLeiXingShuJianTi-2.otf') format('opentype');
+  src: url('../fonts/HongLeiXingShuJianTi-2.otf') format('opentype');
   font-weight: oblique;
   font-style: normal;
 }
