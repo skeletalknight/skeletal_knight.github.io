@@ -2,19 +2,9 @@
   font-family: OPPOSans;
   src: url('/fonts/OPPOSans-H-2.ttf');
 }
-:root {
-  font-weight: 500;
-  font-family: "OPPOSans", OPPOSans, sans-serif;
-  --primary: #6062ce;
-  --primary-70: rgba(96, 98, 206, 0.7);
-  --primary-50: rgba(96, 98, 206, 0.5);
-  --primary-30: rgba(96, 98, 206, 0.3);
-  --primary-weak: #7a89df;
-  --primary-weak-50: rgba(122, 137, 223, 0.5);
-  --selection-bg-color: #1f2d3d;
-  --selection-color: #f1f1f1;
-  --body-color: #1f2d3d;
-  --card-cover-bg-color: #c4d6f56b;
+@font-face {
+  font-family: HongLei;
+  src: url('/fonts/HongLeiXingShuJianTi-2.otf');
 }
 :root .trm-dark-icon {
   display: none;
@@ -1220,8 +1210,9 @@ blockquote {
   color: var(--theme-color, #00283a);
   padding: 40px var(--card-padding, 40px);
   border-radius: var(--card-border-radius, 10px);
-  font-style: italic;
-  font-size: 16px;
+  font-family: HongLei;
+  font-style: oblique;
+  font-size: 18px;
   font-weight: 500;
 }
 blockquote:before {
