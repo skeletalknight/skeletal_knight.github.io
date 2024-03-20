@@ -9,13 +9,13 @@
 }
 @font-face {
   font-family: OPPOSans;
-  src: url('../fonts/OPPOSans-H-2.ttf') format('truetype');
+  src: url('../fonts/OPPOSans-M-2.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: HongLei;
-  src: url('../fonts/HongLeiXingShuJianTi-2.otf') format('opentype');
+  src: url('../fonts/QianTuBiFengShouXieTi-2.ttf') format('truetype');
   font-weight: oblique;
   font-style: normal;
 }
@@ -1217,7 +1217,7 @@ blockquote {
   border-radius: var(--card-border-radius, 10px);
   font-family: HongLei;
   font-style: oblique;
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 500;
 }
 blockquote:before {
@@ -2351,6 +2351,7 @@ form textarea:focus,
     border-radius: 0;
   }
   .trm-banner .trm-banner-content .trm-banner-text .trm-hsmb-font {
+    font-family: -apple-system;
     font-size: 1.8rem;
     padding: 0 10px;
     overflow: hidden;
