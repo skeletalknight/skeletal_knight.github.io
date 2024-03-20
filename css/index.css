@@ -3,7 +3,18 @@
   src: url('/fonts/OPPOSans-H-2.ttf');
 }
 :root {
+  font-weight: 500;
   font-family: "OPPOSans", OPPOSans, sans-serif;
+  --primary: #6062ce;
+  --primary-70: rgba(96, 98, 206, 0.7);
+  --primary-50: rgba(96, 98, 206, 0.5);
+  --primary-30: rgba(96, 98, 206, 0.3);
+  --primary-weak: #7a89df;
+  --primary-weak-50: rgba(122, 137, 223, 0.5);
+  --selection-bg-color: #1f2d3d;
+  --selection-color: #f1f1f1;
+  --body-color: #1f2d3d;
+  --card-cover-bg-color: #c4d6f56b;
 }
 :root .trm-dark-icon {
   display: none;
