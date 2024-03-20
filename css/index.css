@@ -1468,8 +1468,8 @@ blockquote:after {
 }
 .trm-mc-header .trm-typed-text::after {
   content: "|";
-  font-weight: 200;
-  animation: blink ease 1s infinite;
+  font-weight: 400;
+  animation: blink ease 2s infinite;
 }
 .trm-counter-up {
   text-align: center;
