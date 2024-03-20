@@ -20,7 +20,6 @@
   font-style: normal;
 }
 :root {
-  font-weight: 550;
   font-family: "OPPOSans", OPPOSans, sans-serif;
   --primary: #6062ce;
   --primary-70: rgba(96, 98, 206, 0.7);
@@ -1218,7 +1217,7 @@ blockquote {
   border-radius: var(--card-border-radius, 10px);
   font-family: HongLei;
   font-style: oblique;
-  font-size: 18px;
+  font-size: 28px;
   font-weight: 500;
 }
 blockquote:before {
@@ -1815,6 +1814,7 @@ blockquote:after {
 .trm-label {
   font-size: 14px;
   color: #1F2D3D;
+  font-weight: 500;
 }
 .trm-portfolio-item {
   display: block;
