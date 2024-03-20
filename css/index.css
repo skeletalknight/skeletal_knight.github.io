@@ -1,11 +1,3 @@
-@font-face {
-  font-family: OPPOSans;
-  src: url('/fonts/OPPOSans-H-2.ttf');
-}
-@font-face {
-  font-family: HongLei;
-  src: url('/fonts/HongLeiXingShuJianTi-2.otf');
-}
 :root .trm-dark-icon {
   display: none;
 }
@@ -15,13 +7,23 @@
 :root.dark .trm-light-icon {
   display: none;
 }
+@font-face {
+  font-family: OPPOSans;
+  src: url('/fonts/OPPOSans-H-2.ttf');
+}
+@font-face {
+  font-family: HongLei;
+  src: url('/fonts/HongLeiXingShuJianTi-2.otf');
+}
 :root {
-  --primary: #afb42b;
-  --primary-70: rgba(175, 180, 43, 0.7);
-  --primary-50: rgba(175, 180, 43, 0.5);
-  --primary-30: rgba(175, 180, 43, 0.3);
-  --primary-weak: #c0ca33;
-  --primary-weak-50: rgba(192, 202, 51, 0.5);
+  font-weight: 550;
+  font-family: "OPPOSans", OPPOSans, sans-serif;
+  --primary: #6062ce;
+  --primary-70: rgba(96, 98, 206, 0.7);
+  --primary-50: rgba(96, 98, 206, 0.5);
+  --primary-30: rgba(96, 98, 206, 0.3);
+  --primary-weak: #7a89df;
+  --primary-weak-50: rgba(122, 137, 223, 0.5);
   --body-color: #5d5d5e;
   --body-color-5: rgba(93, 93, 94, 0.05);
   --body-bg-color: #00151f;
@@ -63,12 +65,12 @@
   --selection-color: #f1f1f1;
 }
 :root.dark {
-  --primary: #afb42b;
-  --primary-70: rgba(175, 180, 43, 0.7);
-  --primary-50: rgba(175, 180, 43, 0.5);
-  --primary-30: rgba(175, 180, 43, 0.3);
-  --primary-weak: #c0ca33;
-  --primary-weak-50: rgba(192, 202, 51, 0.5);
+  --primary: #6062ce;
+  --primary-70: rgba(96, 98, 206, 0.7);
+  --primary-50: rgba(96, 98, 206, 0.5);
+  --primary-30: rgba(96, 98, 206, 0.3);
+  --primary-weak: #7a89df;
+  --primary-weak-50: rgba(122, 137, 223, 0.5);
   --body-color: #d1d9e9b3;
   --body-color-5: rgba(209, 217, 233, 0.05);
   --body-bg-color: #00151f;
@@ -1212,7 +1214,7 @@ blockquote {
   border-radius: var(--card-border-radius, 10px);
   font-family: HongLei;
   font-style: oblique;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
 }
 blockquote:before {
