@@ -1,3 +1,7 @@
+@font-face {
+  font-family: OPPOSans;
+  src: url('/fonts/OPPOSans-H-2.ttf');
+}
 :root .trm-dark-icon {
   display: none;
 }
@@ -1461,7 +1465,7 @@ blockquote:after {
   object-position: top;
 }
 .trm-mc-header .trm-name {
-  font-size: 18px;
+  font-size: 20px;
 }
 .trm-mc-header .trm-name.trm-name-lg {
   font-size: 32px;
@@ -1469,6 +1473,7 @@ blockquote:after {
 .trm-mc-header .trm-typed-text::after {
   content: "|";
   font-weight: 400;
+  font-size: 18px;
   animation: blink ease 2s infinite;
 }
 .trm-counter-up {
@@ -1795,6 +1800,10 @@ blockquote:after {
 .trm-price .trm-price-list li.trm-label-light {
   text-decoration: line-through;
   opacity: 0.5;
+}
+.trm-label {
+  font-size: 14px;
+  color: #1F2D3D;
 }
 .trm-portfolio-item {
   display: block;
