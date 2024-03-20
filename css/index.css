@@ -2,6 +2,9 @@
   font-family: OPPOSans;
   src: url('/fonts/OPPOSans-H-2.ttf');
 }
+:root {
+  font-family: "OPPOSans", OPPOSans, sans-serif;
+}
 :root .trm-dark-icon {
   display: none;
 }
