@@ -482,9 +482,20 @@
         
 
         
+
             
-<script src="//imgcache.qq.com/qcloud/cloudbase-js-sdk/1.7.1/cloudbase.full.js" data-swup-reload-script></script>
-<script src="https://unpkg.com/b-comments@0.0.13/dist/index.all.min.js" data-swup-reload-script></script>
+<script src="https://unpkg.com/twikoo@1.6.7/dist/twikoo.all.min.js" data-swup-reload-script data-reset="true"></script>
+
+            <script data-swup-reload-script>
+                twikoo.init({
+                    ...{"enable":true,"envId":null,"envID":"https://skeletalknight-twikoo.hf.space"},
+                    el:'#tcomment'
+                }).then(function () {
+                    let container = document.querySelector('body>.tk-admin-container')
+                    if(container) container.remove()
+                    document.body.append(document.querySelector('.tk-admin-container'))
+                });;
+            </script>
 
         
     
