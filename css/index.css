@@ -2592,6 +2592,10 @@ footer .footer-separator::before {
 }
 .trm-publication {
   word-break: break-all;
+  line-height: 1.5;
+  font-size: 130%;
+  letter-spacing: 0.4px;
+  color: #1F2D2D;
 }
 .trm-publication p {
   margin-bottom: 20px;
