@@ -21,12 +21,12 @@
 }
 :root {
   font-family: "OPPOSans", OPPOSans, sans-serif;
-  --primary: #6062ce;
-  --primary-70: rgba(96, 98, 206, 0.7);
-  --primary-50: rgba(96, 98, 206, 0.5);
-  --primary-30: rgba(96, 98, 206, 0.3);
-  --primary-weak: #7a89df;
-  --primary-weak-50: rgba(122, 137, 223, 0.5);
+  --primary: #64a4aa;
+  --primary-70: rgba(100, 164, 170, 0.7);
+  --primary-50: rgba(100, 164, 170, 0.5);
+  --primary-30: rgba(100, 164, 170, 0.3);
+  --primary-weak: #85bdc3;
+  --primary-weak-50: rgba(133, 189, 195, 0.5);
   --body-color: #5d5d5e;
   --body-color-5: rgba(93, 93, 94, 0.05);
   --body-bg-color: #00151f;
@@ -68,12 +68,12 @@
   --selection-color: #f1f1f1;
 }
 :root.dark {
-  --primary: #6062ce;
-  --primary-70: rgba(96, 98, 206, 0.7);
-  --primary-50: rgba(96, 98, 206, 0.5);
-  --primary-30: rgba(96, 98, 206, 0.3);
-  --primary-weak: #7a89df;
-  --primary-weak-50: rgba(122, 137, 223, 0.5);
+  --primary: #64a4aa;
+  --primary-70: rgba(100, 164, 170, 0.7);
+  --primary-50: rgba(100, 164, 170, 0.5);
+  --primary-30: rgba(100, 164, 170, 0.3);
+  --primary-weak: #85bdc3;
+  --primary-weak-50: rgba(133, 189, 195, 0.5);
   --body-color: #d1d9e9b3;
   --body-color-5: rgba(209, 217, 233, 0.05);
   --body-bg-color: #00151f;
@@ -878,9 +878,9 @@ html.is-animating .trm-swup-animation {
   line-height: 80px;
   color: var(--theme-color, #00283a);
   text-transform: uppercase;
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 2px;
-  font-weight: 700;
+  font-weight: 600;
   transition: all 0.4s ease-in-out;
 }
 .trm-menu nav ul li a:hover {
@@ -2593,7 +2593,7 @@ footer .footer-separator::before {
 .trm-publication {
   word-break: break-all;
   line-height: 1.5;
-  font-size: 130%;
+  font-size: 110%;
   letter-spacing: 0.4px;
   color: #1F2D2D;
 }
